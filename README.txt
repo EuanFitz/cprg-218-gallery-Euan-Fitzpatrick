@@ -1,0 +1,1 @@
+All work is unique and created by me using skills learned during class lessons and individual study. 
