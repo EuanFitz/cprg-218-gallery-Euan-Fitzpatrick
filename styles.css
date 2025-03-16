@@ -70,7 +70,7 @@ figure {
     gap: 1rem;
     background-color: white;
     padding: 2rem;
-    margin: 1rem 0;
+    margin: 1rem;
 }
 
 figure img{
@@ -107,13 +107,14 @@ footer{
         margin: 0;
     }
     figure{
-        margin: 2rem;
         height: 95%;
     }
     #gallery-container{
         display: grid;
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 1rem;
     }
     figure:last-of-type{
         grid-column: span 2;
